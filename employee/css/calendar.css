@@ -1,0 +1,30 @@
+.container {
+  font-family: "Montserrat", sans-serif;
+}
+
+.list-inline {
+  text-align: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+th {
+  text-align: center;
+}
+
+th:nth-of-type(6),
+td:nth-of-type(6) {
+  color: blue;
+}
+
+th:nth-of-type(7),
+td:nth-of-type(7) {
+  color: red;
+}
+
+#today {
+  background-color: rgb(138, 138, 141);
+}
