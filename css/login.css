@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #00001a;
+}
+.datetime {
+  color: #fff;
+  background: #4d4dff;
+  font-family: "Segoe UI", sans-serif;
+  width: 340px;
+  padding: 15px 10px;
+  border: 3px solid #2e94e3;
+  border-radius: 5px;
+}
+.datetime:hover {
+  background: black;
+  box-shadow: 0 0 30px #2e94e3;
+}
+.date {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.time span:not(:last-child) {
+  position: relative;
+  margin: 0 6px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.time span:last-child {
+  background: #2e94e3;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 0 5px;
+  border-radius: 3px;
+}
+.wrapper {
+  line-height: 80px;
+  background: blue;
+}
+.card {
+  border-radius: 15px;
+  width: 25%;
+  margin-top: 20px;
+}
+.btn{
+  margin-bottom: 10px;
+}
