@@ -1,0 +1,19 @@
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .print-container,
+  .print-container * {
+    visibility: visible;
+  }
+
+  .info {
+    width: 40%;
+    text-align: right;
+  }
+
+  .text {
+    text-align: left;
+  }
+}
